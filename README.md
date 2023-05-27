@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+import {Box} from "@mui/material"
+import { Stack } from "@mui/system";
+import { Fead } from './components/Fead';
+import { Navbar } from "./components/Navbar";
+import { Rightbar } from './components/Rightbar';
+import { Sidebar } from './components/Sidebar';
+
+
+
+
+
+function App() {
+  return (
+    
+    <Box >
+      <Navbar/>
+      <Stack direction="row" spacing ={2} justifyContent="space-between">
+      <Sidebar/>
+     <Fead/>
+     <Rightbar />
+     </Stack>
+    </Box>
+  
+  );
+}
+
+export default App;

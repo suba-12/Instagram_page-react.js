@@ -1,0 +1,312 @@
+#nav {
+    background-color: white !important;
+    width: 195%;
+    border: #FFFFFF;
+}
+
+
+#col {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 700;
+
+}
+.link{
+    border-right: 7px solid white;
+}
+
+#search {
+    color: black;
+    margin: 1rem 8rem;
+}
+
+#add {
+    color: black;
+}
+
+#fol {
+    color: #2832c2;
+}
+
+#cor {
+    color: gray;
+}
+
+#dark {
+    color: black;
+}
+
+#links {
+    text-decoration: none;
+    color: black;
+}
+
+#side {
+    display: grid;
+    background-color:white;
+    width: 15%;
+    align-items: stretch;
+    
+}
+
+#expl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.app_profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile_container {
+    padding: 2rem 10%;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.profile_img-container {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.profile_img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+
+.user_profile_content {
+    width: 60%;
+    padding-left: 10%;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.username p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.username button {
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.followers {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.followers p {
+    font-size: 1rem;
+
+
+}
+
+.followers span {
+    font-weight: 700;
+
+}
+
+.bio p {
+    font-size: 1rem;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile_tags {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.tags_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+
+.tags_header li {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: gray;
+    font-weight: 800;
+
+}
+
+.user_post_content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+
+}
+
+.user_down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+#space {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 280px;
+
+}
+
+.text {
+    color: gray;
+    padding: 0px 150px;
+}
+
+.text span {
+    color: blue;
+    padding: 0 110px;
+    font-weight: 500;
+}
+
+.end_text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pro_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+
+.pro_text li {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: gray;
+}
+
+#end{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+} 
+#endl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: gray;
+}
+
+.app_direct{
+     display: flex;
+     height: 90vh;
+     width: 100%;
+     background: var(--White);
+     border-radius: 5px;
+     border: var(--border);
+}
+
+.menu_bar{
+    display: flex;
+    padding: 200px 25px;
+}
+
+vl{
+    border-left: 4px solid whitesmoke;
+    height: 800px;
+    position: absolute;
+    left: 100%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .box_shpae{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+  }
+   
+  
+  .inner_div{
+    border:1px solid black;
+    margin: 8rem  8rem;
+    padding : 130px 250px;
+    height:200px;
+    background:white;
+  }
+
+  .title{
+    
+    margin: -8rem 0rem;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  hr{
+    background:whitesmoke;
+    height: 0px;
+    width: 988%;
+    margin: 1rem -15rem;
+}
+.outer{
+    display: flex;
+    margin: 15rem -10rem;
+  }
+  .reels{
+    display: flex;
+    margin: -1rem 1rem;
+    padding: 10px 10px;
+    height: 80%;
+    width: 5%;
+  }
+  .message{
+    border:1px solid rgb(227, 224, 224);
+    margin: 0rem  20rem;
+    padding : 250px 450px;
+    height:200px;
+    background:white;
+   
+  }
+
+  .inmeassage{
+    margin: 10rem 1rem;
+    padding: 1px 10px;
+
+  }
+  .message vl{
+  color:#2832c2;
+  }
+
+  
